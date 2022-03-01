@@ -2,36 +2,35 @@
 <doc>
     <meta>
         <titulo>
-        TPC1 : Uma página Web sobre Jacarés
+        TPC2 : Servidor Javascript e parsing JSON 
         </titulo>
         <data>
-        2022-02-15
+        2022-02-22
         </data>
         <autor>
             <id>PG47157</id>
             <nome>Duarte Manuel Vilar de Oliveira</nome>
         </autor>
         <uc>
-        <sigla>RPCW2022</sigla>
-        <nome>Representação e Processamento de Conhecimento na Web</nome>
+            <sigla>RPCW2022</sigla>
+            <nome>Representação e Processamento de Conhecimento na Web</nome>
         </uc>
 
     </meta>
     <resumo>
-        <p> Primeiro parágrafo.</p>
-        <p> Segundo parágrafo.</p>
-        <p> Terceiro parágrafo a apontar o 
-            <xref>
-                <url>xlm.com</url>
-                <texto>XML</text>
-            <xref>.</p>
+        <p> O trabalho de casa desta semana propunha que os alunos desenvolvessem uma pagina HTML tomando como base um ficheiro do formato JSON com dados relativos a uma extensa lista de filmes.</p>
+        <p> Foi necessário fazer parsing desse mesmo ficheiro, gerando a partir dele uma página html principal com os filmes todos listados por ordem alfabética e uma página html para cada filme.</p>
+        <p> Finalmente era-nos pedido que desenvolvessemos um servidor para responder aos pedidos</p>
     </resumo>
     <resultados>
-    <resultado>
-        <url>jose.html</url>
-        <texto>pagina web</texto>
-    </resultado>
-    <resultado><url>jose.css</url>
-    <texto>Stylesheet do TPC</texto></resultado>
-    
+        <resultado>
+            <url>index.html</url>
+            <texto>Principal página HTML</texto>
+            <url>main.js</url>
+            <texto>Ficheiro javascript com função de parsing e de criação do servidor</texto>
+            <url>src</url>
+            <texto>Pasta que contém todos os ficheiros .html de cada filme </texto>
+        </resultado>
+        <resultado></resultado>
+    </resultados>
 </doc>

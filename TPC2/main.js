@@ -65,24 +65,19 @@ function writeMovies(movies) {
         a += 1
 
     })
-console.log("aconteceu")
+
 }
 
-// var movies = []
-//     getMovie(movies)
-//     console.log("Started")
-//     movies = sortMovies(movies)
-//     console.log("Banana")
-//     writeIndex(movies)
-//     console.log("atum")
-//     writeMovies(movies)
-//     console.log("now running")
-    
+var movies = []
+getMovie(movies)
+movies = sortMovies(movies)
+writeIndex(movies)
+writeMovies(movies)
+console.log("Parsing e criação de página html efetuado.")
 http.createServer(function(req, res) {
     
     
     var myUrl = url.parse(req.url, true).pathname
-    console.log(req.url)
     if(myUrl == '/filmes'){
         
         res.writeHead(200, { 'Content-Type': 'text/html' });
@@ -102,4 +97,5 @@ http.createServer(function(req, res) {
     }
     
 
-}).listen(54545);
+}).listen(32121);
+console.log("Servidor iniciado porta 32121")    
