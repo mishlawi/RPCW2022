@@ -2,7 +2,7 @@
 <doc>
     <meta>
         <titulo>
-        TPC2 : Servidor Javascript
+        TPC3 : Json Server & Servidor Javascript
         </titulo>
         <data>
         2022-03-15
@@ -29,7 +29,7 @@
     <resultados>
         <resultado>
             <url>main.js</url>
-            <texto>Ficheiro javascript com função de parsing e de criação do servidor</texto>
+            <texto>Ficheiro javascript com funções de executar pedidos à base de dados e de criação do servidor</texto>
             <url>basedados</url>
             <texto>Ficheiro JSON que simula API de dados</texto>
         </resultado>
